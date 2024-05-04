@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +43,10 @@ h1, .book {
     justify-content: space-between;
     align-items: stretch;
     padding: 3%;
+}
+.book > div {
+    display: flex;
+    flex-direction: column;
 }
 img {
     align-self: center;
