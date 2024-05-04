@@ -48,13 +48,6 @@ h1, .book {
     display: flex;
     flex-direction: column;
 }
-p + div {
-    background-color: #2ecc71;
-    border: none;
-    border-radius: 3px;
-    text-align: center;
-    padding-block: 5px;
-}
 img {
     align-self: center;
 }
@@ -69,4 +62,7 @@ h2 {
     color: white;
     background-color: #2ecc71;
     border: none;
+    border-radius: 3px;
+    padding-block: 5px;
+    text-align: center;
 }
